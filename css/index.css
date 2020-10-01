@@ -16,6 +16,14 @@ body {
     z-index: 1;
     font-family: 'Noto Sans JP', sans-serif;
   }
+
+  .topNavlink {
+    color: snow;
+  }
+
+  .topNavlink:hover {
+    color: snow;
+  }
   
   .logo {
     font-size: 48px;
@@ -28,19 +36,10 @@ body {
     float: right;
     margin: 36px;
   }
-
-  .topNavlink {
-    color: snow;
-  }
-
-  .topNavlink:hover {
-    color: snow;
-  }
-
   .top-menu li{
     list-style-type: none;
     display: inline;
-    padding: 15px; 
+    padding: 15px;
   }
 
   .top-menu li:hover {
@@ -64,13 +63,12 @@ body {
   .hero-section {
     /* border: 2px solid red; */
     width: 100%;
-    height: 660px;
+    height: 750px;
   }
   
   .hero-gif {
     /* border: 2px solid purple; */
-    float:left;
-    margin-top: 20px;
+    float:left;  
   }
   
   .about-text{
@@ -78,15 +76,13 @@ body {
     float: right;
     width: 35%;
     padding: 30px;
-    margin-top: 20px;
   }
 
   .sectionHeading {
     text-align: center;
-    padding: 20px;
   } */
   
-  /* .caseStudies-home {
+  .caseStudies-home {
     position: relative;
     bottom: 120px;
   }
@@ -95,28 +91,19 @@ body {
    .caseHead {
   text-align: center;
   height: fit-content;
-   } */
-
-  /* .container-fluid-content {
-    margin-top: -60px;
-  } */
+   }
 
    .cardContainer {
+    margin-top: 20px;
     text-align: center;
   }
   .card {
     margin: 0 auto;
-    align-items: center;
-    background-color:  rgb(255, 255, 255) !important;
-    border-radius: 5px !important;
-    border-color:  rgb(164, 176, 199) !important;
   }
 
-  .card-img-top {
-    border-radius: 4px 4px 0 0 !important;
-  }
-
-  @media (max-width:842px) {
+  mobile break point
+  
+  @media (max-width: 842px) {
 
     nav {
       width: auto;
@@ -131,48 +118,35 @@ body {
       align-items: center;
     }
 
-    .hero-gif {
-      height: 40% !important;
-    }
-    .about-text {
+    .about-text{
     float: none;
-    width: 85%;
-    padding: 0;
+    width: auto;
+    padding: 40px;
     }
 
-
+    p {
+    width: auto;
+    }
   }
 
+
   @media (max-width: 1420px) {
-
-    nav {
-      z-index: 1;
-    }
-
     .hero-section {
-      
+      display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       float: none; 
     }
-
-    .hero-gif {
-      height: 45% !important;
-    }
   
     .about-text{ 
       float: none;
-      width: 85% !important;
     }
   
     .hero-gif{
       float: none;
       z-index: -1;
-    }
-
-    .container-fluid {
-      float: none;
-      margin-top: 150px !important;
+      margin-top: 20%; 
     }
   }
 
@@ -183,8 +157,8 @@ body {
     font-size: 24px;
   } */
 
-  /* #bottomNav{
-    background-color: black;
+  #bottomNav{
+    background-color: rgb(26, 35, 51);
     width: 100%;
     height: 15px;
     padding: 30px;
@@ -197,10 +171,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     z-index: 1;
-    align-self: baseline; */
+    align-self: baseline;
   }
 
-  footer {
+  /* footer {
     position: absolute;
     width: 100%;
     height: 60px;
@@ -210,15 +184,14 @@ body {
   } 
 
   .emailContain {
-  background: url(../images/SizzlingUnsungHarborseal-size_restricted.gif);
+  background: url(../images/tumblr_ne4qiod0081qhhssxo2_500.gif);
   background-size: cover;
   display: flex;
   align-items: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 800px;
-  margin-top: 0px;
+  height: 500px;
 }
 
 form {
@@ -230,10 +203,39 @@ form {
   -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
   background-color: white; */
-  
-  }
+/* } */
 
-  /* button {
+.content {
+  padding: 50px;
+}
+
+.sectionHeading {
+  text-align: center;
+}
+
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
+
+.col-3 {
+  background-color: rgb(89, 95, 122);
+  border-radius: 0 15px 15px 0;
+}
+.sideAccent {
+  background: rgb(89, 95, 122);
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+  button {
     margin-top: 20px;
     line-height: 60px;
     width: auto;
@@ -247,7 +249,7 @@ form {
   button:hover {
     background-color: rgb(83, 62, 83);
     color: white;
-        } */
+        }
 
   .preloader {
     position: fixed;
