@@ -116,9 +116,7 @@ body {
     border-radius: 4px 4px 0 0 !important;
   }
 
-  mobile break point
-  
-  @media (max-width: 842px) {
+  @media (max-width:842px) {
 
     nav {
       width: auto;
@@ -133,35 +131,48 @@ body {
       align-items: center;
     }
 
-    .about-text{
+    .hero-gif {
+      height: 40% !important;
+    }
+    .about-text {
     float: none;
-    width: auto;
-    padding: 40px;
+    width: 85%;
+    padding: 0;
     }
 
-    p {
-    width: auto;
-    }
+
   }
 
-
   @media (max-width: 1420px) {
+
+    nav {
+      z-index: 1;
+    }
+
     .hero-section {
-      display: flex;
-      flex-direction: column;
+      
       align-items: center;
       justify-content: center;
       float: none; 
     }
+
+    .hero-gif {
+      height: 45% !important;
+    }
   
     .about-text{ 
       float: none;
+      width: 85% !important;
     }
   
     .hero-gif{
       float: none;
       z-index: -1;
-      margin-top: 20%; 
+    }
+
+    .container-fluid {
+      float: none;
+      margin-top: 150px !important;
     }
   }
 
