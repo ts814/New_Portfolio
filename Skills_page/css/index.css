@@ -13,8 +13,6 @@ html, body {
   font-size: 16px;
   padding: 5px 5px 5px 5px;
   float: right;
-  background-color: rgb(70, 70, 70);
-  border-radius: 15px;
 }
 
 .aboout {
@@ -156,14 +154,6 @@ button:hover {
   color: white;
       }
 
-.btn-primary:hover {
-  background-color: rgb(70, 70, 70) !important;
-  border: rgb(70, 70, 70) !important;
-      }
-    
-.btn-primary {
-  background-color: rgb(126, 71, 126) !important;
-  border: rgb(83, 62, 83) !important;
 
 #page-container {
   position: relative;

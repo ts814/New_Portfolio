@@ -1,0 +1,212 @@
+html, body {
+  margin:0;
+  padding:0;
+  height: 1600px;
+}
+
+.left {
+  width: 50%;
+  background-color:black;
+}
+.right {
+  position: relative;
+  top: 36px;
+  left: 1250px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.aboout {
+  position: relative;
+  top: 6px;
+  left: 800px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.skills {
+  position: relative;
+  bottom: 24px;
+  left: 950px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.resume{
+  position: relative;
+  bottom: 54px;
+  left: 1100px;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.topNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  background-color: black;
+  height: 50px;
+  padding: 30px;
+  margin: 0;
+  display: flex;
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+
+}
+
+#bottomNav{
+  background-color: rgb(26, 35, 51);
+  width: 94%;
+  height: 15px;
+  padding: 30px;
+  margin: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: whitesmoke;
+  z-index: 1;
+  align-self: baseline;
+}
+
+.homeIntro {
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  width: 450px;
+  height: 200px;
+  font-size: 24px;
+
+}
+
+.myLogo {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  color: white;
+
+}
+
+.fixedPortrait {
+  position: absolute;
+  top: 175px;
+  left: 0;
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
+  color: black;
+}
+
+.caseStudiesHead {
+  position: absolute;
+  top: 775px;
+  left: 0px;
+  width: 1350px;
+}
+.caseStudies {
+  position: absolute;
+  top: 900px;
+  left: 300px;
+  width: 1000px;
+  height: 200px;
+  
+}
+
+.caseHead {
+  background-color: rgb(62, 73, 83);
+  text-align: center;
+  height: fit-content;
+}
+
+h1 {
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 48px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 1fr 1fr;
+  font-size: 24px;
+}
+
+.caseName{
+  font-weight: bolder;
+  width: 300px;
+}
+
+button {
+  margin-top: 20px;
+  line-height: 60px;
+  width: 180px;
+  font-weight: bold;
+  padding: 0 40px;
+  border: none;
+      }
+button:hover {
+  background-color: rgb(83, 62, 83);
+  color: white;
+      }
+
+
+#page-container {
+  position: relative;
+  min-height: 100%;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+  text-align: end;
+  }
+  
+  .preloader img {
+    animation: linear 1s ease;
+    transition: all;
+    width: 300px;
+    margin: 0 auto;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(720deg);
+    }
+  }
